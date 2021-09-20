@@ -17,7 +17,7 @@ const setCookies = (ddg_json) => {
 }
 
 // Paste your cookie data here
-const ddg_cookie_input = `ko=s; kj=1e262f; kx=C3D6F9; k7=2A2F3B; k8=919DB3; k9=C3D6F9; kaa=C3D6F9; k21=39404D`;
+const ddg_cookie_input = `o=s; j=1e262f; x=C3D6F9; 7=2A2F3B; 8=919DB3; 9=C3D6F9; aa=C3D6F9; 21=39404D`;
 // Call set cookies, passing in formated cookie data
 setCookies(makeCookieData(ddg_cookie_input));
 
